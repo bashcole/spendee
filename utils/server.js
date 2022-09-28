@@ -12,20 +12,12 @@ import tokenRoute from "../routes/token.js";
 import userRoute from "../routes/users.js";
 import notFound from "../middleware/NotFound.js";
 import errorHandler from "../middleware/ErrorHandler.js";
-import currency from "../models/Currency.js";
-import * as path from "path";
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 const app = express();
 
 donenv.config();
 app.use(express.json());
 app.set('trust proxy', true)
-app.use(express.static('public'))
 
 app.options('*', cors()) // include before other routes
 app.use(cors()); // Header support for Express
@@ -58,7 +50,7 @@ app.use("/api/users", userRoute);
 app.use("/api/token", tokenRoute);
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: path.join(__dirname, 'public')});
+    res.json({'message': 'API is working'})
 })
 
 app.use(notFound)
