@@ -14,14 +14,13 @@ import notFound from "../middleware/NotFound.js";
 import errorHandler from "../middleware/ErrorHandler.js";
 
 const app = express();
+app.use(cors({
+    origin: ['http://localhost:3000/', 'https://www.google.com/']
+}));
 
 donenv.config();
 app.use(express.json());
 app.set('trust proxy', true)
-
-app.use(cors({
-    origin: ['http://localhost:3000/', 'https://www.google.com/']
-}));
 
 // noinspection JSCheckFunctionSignatures
 app.use("/api/cron", cronRoute);
