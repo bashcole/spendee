@@ -14,9 +14,7 @@ import notFound from "../middleware/NotFound.js";
 import errorHandler from "../middleware/ErrorHandler.js";
 
 const app = express();
-app.use(cors({
-    origin: ['http://localhost:3000/', 'https://www.google.com/']
-}));
+app.use(cors());
 
 donenv.config();
 app.use(express.json());
