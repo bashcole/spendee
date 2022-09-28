@@ -14,6 +14,11 @@ import notFound from "../middleware/NotFound.js";
 import errorHandler from "../middleware/ErrorHandler.js";
 import currency from "../models/Currency.js";
 import * as path from "path";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 
