@@ -7,7 +7,8 @@
   "scripts": {
     "test": "mocha --file './utils/test_helper.js' --timeout 60000 --recursive --exit",
     "dot": "--setupFiles dotenv/config",
-    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "users:import": "node seeders/users.js",
     "icons:import": "node seeders/icons.js",
     "colors:import": "node seeders/colors.js",
