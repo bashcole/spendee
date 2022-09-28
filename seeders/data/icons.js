@@ -1,0 +1,139 @@
+import dotenv from "dotenv"
+dotenv.config()
+
+export default [{
+    "_id": "6273af9bbbfe6acfbacc2574",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/car.svg`
+}, {
+    "_id": "6273af9bc97f4a51f054eaa0",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/plane.svg`
+}, {
+    "_id": "6273af9b90cc0587697f1632",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/food.svg`
+}, {
+    "_id": "6273af9b2f671f69564ccb35",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/personal.svg`
+}, {
+    "_id": "6273af9bbc46e566539e4232",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/money.svg`
+}, {
+    "_id": "6273af9bc7ae93d260d81513",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/entertainment.svg`
+}, {
+    "_id": "6273af9b31dd7dd8e76f6cf8",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/house.svg`
+}, {
+    "_id": "6273af9b21ea73af4927eb3c",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/energy.svg`
+}, {
+    "_id": "6273af9b6090677ff3e2be38",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/shopping.svg`
+}, {
+    "_id": "6273af9b8c00532b2aacc1eb",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/acommodation.svg`
+}, {
+    "_id": "6273af9b62fda2b0a0fc0767",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/healthcare.svg`
+}, {
+    "_id": "6273af9b079b90945ab1456c",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/other.svg`
+}, {
+    "_id": "6273af9b90c047678a5bc236",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/clothes.svg`
+}, {
+    "_id": "6273af9b4d6ae4567463abd6",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/transport.svg`
+}, {
+    "_id": "6273af9b2b370645006fef4e",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/grocery.svg`
+}, {
+    "_id": "6273af9b20c0ca3ab4aa4704",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/drinks.svg`
+}, {
+    "_id": "6273af9bd44db1dcbd6e2a70",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/sport.svg`
+}, {
+    "_id": "6273af9b0db7cf4adc789816",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/pets.svg`
+}, {
+    "_id": "6273af9b667ce5dc5f929566",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/education.svg`
+}, {
+    "_id": "6273af9bdd7476c4a9f8c633",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/cinema.svg`
+}, {
+    "_id": "6273af9be17134616c32527f",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/love.svg`
+}, {
+    "_id": "6273af9bf3a6fd1fa24f07a5",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/train.svg`
+}, {
+    "_id": "6273af9bfff3d6b99ed1e7ac",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/rent.svg`
+}, {
+    "_id": "6273af9b020ab512e1da52f0",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/itunes.svg`
+}, {
+    "_id": "6273af9b90f7d52e80f40498",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/wallet.svg`
+}, {
+    "_id": "6273af9b4450c36ffe009882",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/gift.svg`
+}, {
+    "_id": "6273af9b40aaec2ac8ac22ea",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/business.svg`
+}, {
+    "_id": "6273af9b615a56faf84598ed",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/budget.svg`
+}, {
+    "_id": "6273af9b90b89988bd8c8a0d",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/gym.svg`
+}, {
+    "_id": "6273af9bdd6caa3b8aa7ea59",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/phone.svg`
+}, {
+    "_id": "6273af9ba8ec23183717a1ea",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/coffee.svg`
+}, {
+    "_id": "6273af9b11704d411aed75b4",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/gas.svg`
+}, {
+    "_id": "6273af9b7679e213689692fe",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/parking.svg`
+}, {
+    "_id": "6273af9b42ad7fa4bb138b8c",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/cigarets.svg`
+}, {
+    "_id": "6273af9bacdb87cd742aa85f",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/book.svg`
+}, {
+    "_id": "6273af9b9973a37d215f9f52",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/playstore.svg`
+}, {
+    "_id": "6273af9b3a10fea00f44d2f0",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/tools.svg`
+}, {
+    "_id": "6273af9b384a4dd39b2dd13e",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/motorbike.svg`
+}, {
+    "_id": "6273af9b7730bef1a8240784",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/eshopping.svg`
+}, {
+    "_id": "6273af9b15e9103526a14998",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/computer.svg`
+}, {
+    "_id": "6273af9bde76d238d14b42aa",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/haircut.svg`
+}, {
+    "_id": "6273af9b83cea52b6b0fcba7",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/apple.svg`
+}, {
+    "_id": "6273af9b53e8e9a4400578e7",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/card.svg`
+}, {
+    "_id": "6273af9bdeabf7d351141027",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/subscription.svg`
+}, {
+    "_id": "6273af9b1549984c1b851e91",
+    "filepath": `${process.env.FRONTEND_URL}/img/icons/washingmachine.svg`
+}, {"_id": "6273af9b43a603566b0b0a29", "filepath": `${process.env.FRONTEND_URL}/img/icons/pricetag.svg`}]

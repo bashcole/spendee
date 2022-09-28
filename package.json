@@ -1,0 +1,58 @@
+{
+  "name": "spendee",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --file './utils/test_helper.js' --timeout 60000 --recursive --exit",
+    "dot": "--setupFiles dotenv/config",
+    "start": "nodemon index.js",
+    "users:import": "node seeders/users.js",
+    "icons:import": "node seeders/icons.js",
+    "colors:import": "node seeders/colors.js",
+    "currencies:import": "node seeders/currencies.js",
+    "categories:import": "node seeders/categories.js",
+    "positions:import": "node seeders/positions.js",
+    "wallets:import": "node seeders/wallets.js",
+    "transactions:import": "node seeders/transactions.js",
+
+    "users:destroy": "node seeders/users.js -d",
+    "icons:destroy": "node seeders/icons.js -d",
+    "colors:destroy": "node seeders/colors.js -d",
+    "wallets:destroy": "node seeders/wallets.js -d",
+    "categories:destroy": "node seeders/categories.js -d",
+    "currencies:destroy": "node seeders/currencies.js -d",
+    "positions:destroy": "node seeders/positions.js -d",
+    "transactions:destroy": "node seeders/transactions.js -d",
+    "calculate_wallet_balance:execute": "node jobs/calculate_wallet_balance.js",
+    "truncate_refresh_tokens:execute": "node jobs/truncate_refresh_tokens.js",
+    "truncate_all_collections:execute": "node jobs/truncate_all_collections.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb-memory-server": "^8.5.2",
+    "mongoose": "^6.3.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "colors": "^1.4.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.15",
+    "winston": "^3.8.2"
+  }
+}
