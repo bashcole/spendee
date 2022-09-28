@@ -13,12 +13,14 @@ import userRoute from "../routes/users.js";
 import notFound from "../middleware/NotFound.js";
 import errorHandler from "../middleware/ErrorHandler.js";
 import currency from "../models/Currency.js";
+import * as path from "path";
 
 const app = express();
 
 donenv.config();
 app.use(express.json());
 app.set('trust proxy', true)
+app.use(express.static('public'))
 
 app.use(cors())
 
@@ -48,6 +50,10 @@ app.use("/api/users", userRoute);
 
 // noinspection JSCheckFunctionSignatures
 app.use("/api/token", tokenRoute);
+
+app.get('/', (req, res) => {
+    res.sendFile('index.html', {root: path.join(__dirname, 'public')});
+})
 
 app.use(notFound)
 app.use(errorHandler)
