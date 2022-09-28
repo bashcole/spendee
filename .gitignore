@@ -49,7 +49,7 @@ yarn-error.log*
 .env*.local
 .env
 error.log
-
+combined.log
 # vercel
 .vercel
 
