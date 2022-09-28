@@ -22,7 +22,8 @@ app.use(express.json());
 app.set('trust proxy', true)
 app.use(express.static('public'))
 
-app.use(cors())
+app.options('*', cors()) // include before other routes
+app.use(cors()); // Header support for Express
 
 // noinspection JSCheckFunctionSignatures
 app.use("/api/cron", cronRoute);
