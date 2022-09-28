@@ -69,161 +69,168 @@ export const defaultCategories = (userID) => {
         "type": "income",
         "name": "Заплата",
         "hex": "#71c643",
-        "icon": "https://spendee.bashcole.com/img/icons/money.svg",
+        "icon": "/img/icons/money.svg",
         "sort": 1
     },{
         "userID": userID,
         "type": "income",
         "name": "Подаръци",
         "hex": "#f5534b",
-        "icon": "https://spendee.bashcole.com/img/icons/gift.svg",
+        "icon": "/img/icons/gift.svg",
         "sort": 2
     },{
         "userID": userID,
         "type": "income",
         "name": "Extra",
         "hex": "#ffa200",
-        "icon": "https://spendee.bashcole.com/img/icons/shopping.svg",
+        "icon": "/img/icons/shopping.svg",
         "sort": 3
     },{
         "userID": userID,
         "type": "income",
         "name": "Заем",
         "hex": "#e06476",
-        "icon": "https://spendee.bashcole.com/img/icons/loan.svg",
+        "icon": "/img/icons/loan.svg",
         "sort": 4
     },{
         "userID": userID,
         "type": "income",
         "name": "Майчинство",
         "hex": "#f964a0",
-        "icon": "https://spendee.bashcole.com/img/icons/parental_leave.svg",
+        "icon": "/icons/parental_leave.svg",
         "sort": 5
     },{
         "userID": userID,
         "type": "income",
         "name": "Други",
         "hex": "#67686c",
-        "icon": "https://spendee.bashcole.com/img/icons/other.svg",
+        "icon": "/img/icons/other.svg",
         "sort": 6
     },{
         "userID": userID,
         "type": "expense",
         "name": "Храна",
         "hex": "#b47b55",
-        "icon": "https://spendee.bashcole.com/img/icons/grocery.svg",
+        "icon": "/icons/grocery.svg",
         "sort": 1
     },{
         "userID": userID,
         "type": "expense",
         "name": "Пазаруване",
         "hex": "#5dc6ad",
-        "icon": "https://spendee.bashcole.com/img/icons/shopping.svg",
+        "icon": "/icons/shopping.svg",
         "sort": 2
     },{
         "userID": userID,
         "type": "expense",
         "name": "Сметки",
         "hex": "#71c643",
-        "icon": "https://spendee.bashcole.com/img/icons/money.svg",
+        "icon": "/icons/money.svg",
         "sort": 3
     },{
         "userID": userID,
         "type": "expense",
         "name": "Наем",
         "hex": "#71c643",
-        "icon": "https://spendee.bashcole.com/img/icons/rent.svg",
+        "icon": "/icons/rent.svg",
         "sort": 4
     },{
         "userID": userID,
         "type": "expense",
         "name": "Заведения",
         "hex": "#f963a0",
-        "icon": "https://spendee.bashcole.com/img/icons/food.svg",
+        "icon": "/icons/food.svg",
         "sort": 5
     },{
         "userID": userID,
         "type": "expense",
         "name": "Забавления",
         "hex": "#ffa801",
-        "icon": "https://spendee.bashcole.com/img/icons/entertainment.svg",
+        "icon": "/img/icons/entertainment.svg",
         "sort": 6
     },{
         "userID": userID,
         "type": "expense",
         "name": "Транспорт",
         "hex": "#61708c",
-        "icon": "https://spendee.bashcole.com/img/icons/transport.svg",
+        "icon": "/img/icons/transport.svg",
         "sort": 7
     },{
         "userID": userID,
         "type": "expense",
         "name": "Подаръци",
         "hex": "#f5534b",
-        "icon": "https://spendee.bashcole.com/img/icons/gift.svg",
+        "icon": "/img/icons/gift.svg",
         "sort": 8
     },{
         "userID": userID,
         "type": "expense",
         "name": "Пътешествия",
         "hex": "#47a7e6",
-        "icon": "https://spendee.bashcole.com/img/icons/plane.svg",
+        "icon": "/img/icons/plane.svg",
         "sort": 9
     },{
         "userID": userID,
         "type": "expense",
         "name": "Хотели",
         "hex": "#e26beb",
-        "icon": "https://spendee.bashcole.com/img/icons/acommodation.svg",
+        "icon": "/img/icons/acommodation.svg",
         "sort": 10
     },{
         "userID": userID,
         "type": "expense",
         "name": "Спорт",
         "hex": "#47a7e6",
-        "icon": "https://spendee.bashcole.com/img/icons/gym.svg",
+        "icon": "/img/icons/gym.svg",
         "sort": 11
     },{
         "userID": userID,
         "type": "expense",
         "name": "Здраве",
         "hex": "#e56274",
-        "icon": "https://spendee.bashcole.com/img/icons/healthcare.svg",
+        "icon": "/img/icons/healthcare.svg",
+        "sort": 12
+    },{
+        "userID": userID,
+        "type": "expense",
+        "name": "Кола",
+        "hex": "#e56274",
+        "icon": "/img/icons/car.svg",
         "sort": 12
     },{
         "userID": userID,
         "type": "expense",
         "name": "Семейство",
         "hex": "#60cfcb",
-        "icon": "https://spendee.bashcole.com/img/icons/personal.svg",
+        "icon": "/img/icons/personal.svg",
         "sort": 13
     },{
         "userID": userID,
         "type": "expense",
         "name": "Обучение",
         "hex": "#3a75ad",
-        "icon": "https://spendee.bashcole.com/img/icons/education.svg",
+        "icon": "/img/icons/education.svg",
         "sort": 14
     },{
         "userID": userID,
         "type": "expense",
         "name": "iTunes",
         "hex": "#71c643",
-        "icon": "https://spendee.bashcole.com/img/icons/itunes.svg",
+        "icon": "/img/icons/itunes.svg",
         "sort": 15
     },{
         "userID": userID,
         "type": "expense",
         "name": "Приравняване",
         "hex": "#f5534b",
-        "icon": "https://spendee.bashcole.com/img/icons/wallet.svg",
+        "icon": "/img/icons/wallet.svg",
         "sort": 16
     },{
         "userID": userID,
         "type": "expense",
         "name": "Други",
         "hex": "#67686c",
-        "icon": "https://spendee.bashcole.com/img/icons/other.svg",
+        "icon": "/img/icons/other.svg",
         "sort": 17
     }]
 }
