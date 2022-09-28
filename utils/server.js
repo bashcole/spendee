@@ -19,8 +19,9 @@ donenv.config();
 app.use(express.json());
 app.set('trust proxy', true)
 
-app.options('*', cors()) // include before other routes
-app.use(cors()); // Header support for Express
+app.use(cors({
+    origin: ['http://localhost:3000/', 'https://www.google.com/']
+}));
 
 // noinspection JSCheckFunctionSignatures
 app.use("/api/cron", cronRoute);
