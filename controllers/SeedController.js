@@ -24,7 +24,7 @@ const reset = asyncHandler(async (req, res) => {
             username: "sandbox",
             email: "example@gmail.com",
             password: "123456",
-            picture: "http://localhost:3000/img/avatars/JD.png"
+            picture: "/img/avatars/JD.png"
         })
 
         const wallets = await Wallet.insertMany([
