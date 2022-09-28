@@ -14,7 +14,7 @@ import Position from "../models/Position.js";
 // @route   POST /api/users/register
 // @access  Public
 export const register = asyncHandler(async (req, res) => {
-    const {email, password, username, name} = validated(req)
+    const {email, password, username, name, picture} = validated(req)
 
     try {
 
@@ -44,7 +44,7 @@ export const register = asyncHandler(async (req, res) => {
             password,
             name,
             username,
-            picture: 'http://localhost:3000/img/avatars/JD.png'
+            picture
         })
 
         // Generate categories
