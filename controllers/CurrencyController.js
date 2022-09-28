@@ -15,7 +15,7 @@ export const index = asyncHandler(async (req, res) => {
         }
     }
 
-    const currencies = await Currency.find(where)
+    const currencies = await Currency.find(where, '-rates')
     res.json(currencies)
 })
 
