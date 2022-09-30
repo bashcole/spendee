@@ -107,7 +107,7 @@ export const transactions = asyncHandler(async (req, res) => {
     if (req.query.from && req.query.to) {
         filters.createdAt = {
             $gte: new Date(`${req.query.from}T00:00:00Z`),
-            $lte: new Date(`${req.query.to}T00:00:00Z`)
+            $lte: new Date(`${req.query.to}T23:59:59Z`)
         }
     }
 
@@ -141,7 +141,7 @@ export const positions = asyncHandler(async (req, res) => {
     if (req.query.from && req.query.to) {
         filters.createdAt = {
             $gte: new Date(`${req.query.from}T00:00:00Z`),
-            $lte: new Date(`${req.query.to}T00:00:00Z`)
+            $lte: new Date(`${req.query.to}T23:59:59Z`)
         }
     }
 
