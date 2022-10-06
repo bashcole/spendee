@@ -17,6 +17,8 @@
     "positions:import": "node seeders/positions.js",
     "wallets:import": "node seeders/wallets.js",
     "transactions:import": "node seeders/transactions.js",
+    "vasya:import": "node seeders/vasya.js",
+    "marian:import": "node seeders/marian.js",
 
     "users:destroy": "node seeders/users.js -d",
     "icons:destroy": "node seeders/icons.js -d",
@@ -28,7 +30,8 @@
     "transactions:destroy": "node seeders/transactions.js -d",
     "calculate_wallet_balance:execute": "node jobs/calculate_wallet_balance.js",
     "truncate_refresh_tokens:execute": "node jobs/truncate_refresh_tokens.js",
-    "truncate_all_collections:execute": "node jobs/truncate_all_collections.js"
+    "truncate_all_collections:execute": "node jobs/truncate_all_collections.js",
+    "transfer:execute": "node jobs/transfer.js"
   },
   "keywords": [],
   "author": "",

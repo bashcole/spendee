@@ -12,7 +12,7 @@ import logger from "../utils/logger.js";
 export const index = asyncHandler(async (req, res) => {
     const wallets = await Wallet.find({
         userID: req.user._id,
-    })
+    }).sort({sort: -1})
     res.json(wallets)
 })
 
@@ -111,14 +111,7 @@ export const transactions = asyncHandler(async (req, res) => {
         }
     }
 
-    console.log(filters)
-
     const transactions = await Transaction.find(filters).sort({createdAt: -1})
-
-    // console.log({
-    //     userID: req.user._id,
-    //     walletID: mongoose.Types.ObjectId(req.params.walletID)
-    // })
 
     if (transactions) {
         return res.json(transactions)
