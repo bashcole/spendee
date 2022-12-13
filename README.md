@@ -1,6 +1,6 @@
 # Manage all your money with ease from one place with Spendee. Track your income and expenses, analyze your financial habits and stick to your budgets.
 
-# Tech stack: Nodejs, ExpressJS, Mocha/chai
+# Tech stack: Nodejs, ExpressJS, MongoDB, Mocha/chai
 
 # Follow the steps below to set up the project
 
